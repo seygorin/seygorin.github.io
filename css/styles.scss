@@ -1,0 +1,1044 @@
+@mixin YellowBox {
+    font-size: 14px;
+    font-weight: bold;
+    background-color:#FFFF00;
+    text-align: center;
+    line-height: 32px;  
+    border: 2px solid black;
+}
+
+@mixin OrangeBox {
+    font-size: 14px;
+    font-weight: bold;
+    background-color:#FFE599;
+    text-align: center;
+    border: 2px solid black;
+    line-height: 32px;  
+}
+
+@mixin GreyBox {
+    font-size: 14px;
+    color: #616161;
+    font-weight: bold;
+    background-color:#D4D4D4;
+    text-align: center;
+    border: 2px solid black;
+    line-height: 32px;  
+}
+
+@mixin WhiteBox {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.background {
+    background-image: url(/Projects/Frontend_roadmap/seygorin.github.io/img/1frontend.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+}
+
+
+.footer {
+
+    text-align: center;
+    color: white;
+
+    background: purple;
+}
+.text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 130px 65px 55px 0px;
+}
+
+.container {
+
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.row > *{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+.internet {
+
+    width: 344px;
+    height: 112px;
+}
+
+.internet-text {
+    @include YellowBox();
+
+    width: 146.49px;
+    height: 41.15px;
+    margin: 40px 0px 0px 96px;
+}
+
+.internet__right {
+    
+    width: 381px;
+    height: 112px;
+}
+
+.internet__right-text {
+    @include OrangeBox();
+
+    width: 230.44px;
+    height: 32.92px;
+    margin: 0px 0px 5px 0px;
+}
+
+.internet__left {
+
+    width: 274px;
+    height: 112px;
+}
+
+.internet__left-text {
+    @include OrangeBox();
+
+    width: 245px;
+    height: 32.92px;    
+    margin: 0px 0px 5px 26px;
+}
+
+.basic__left {
+
+    width: 274px;
+    height: 256px;
+}
+
+.basic__left-text {
+    @include OrangeBox();
+
+    width: 245.48px;
+    height: 32.92px;
+    margin: 17px 0px -11px 26px;
+}
+
+.basic__left-text_bottom{
+    @include OrangeBox();
+
+    width: 245.48px;
+    height: 32.92px;
+    margin: 27px 0px -22px 27px;
+}
+
+.basic {
+
+    width: 345px;
+    height: 256px;
+}
+
+.basic-text {
+    @include YellowBox();
+
+    width: 205.75px;
+    height: 41.15px;  
+    margin: 69px 0px -62px 72px;
+}
+
+.basic__right {
+
+    width: 230px;
+    height: 256px;
+}
+
+.basic__right-text {
+    @include OrangeBox();
+
+    width: 230.44px;
+    height: 32.92px;
+    margin: 42px 0px -35px 0px;
+    
+}
+.basic__right-right {
+
+    width: 151px;
+    height: 256px;
+}
+.basic__right-right-text {
+    @include OrangeBox();
+
+    width: 94.65px;
+    height: 151.43px;
+    margin: 102px 0px 0px 21px;
+    line-height: 10px;
+    padding: 3px;  
+}
+.git__left {
+
+    width: 274px;
+    height: 184px;
+}
+
+.git__left-text {
+    @include OrangeBox();
+
+    width: 245.48px;
+    height: 32.92px;
+    margin: 4px 0px 7px 27px;
+}
+
+.git__left-text-big {
+    @include OrangeBox();
+
+    width: 245.48px;
+    height: 93px;
+    margin: 4px 0px 7px 27px;
+}
+
+.git {
+
+    width: 345px;
+    height: 184px;
+}
+
+.git-text {
+    @include YellowBox();
+
+    width: 276.53px;
+    height: 63.37px;
+    margin: 28px 0px 0px 55px;
+    line-height: 12px;  
+    padding: 4px;
+}
+
+.git-text_bottom {
+    @include YellowBox();
+
+    width: 177.77px;
+    height: 44.44px;
+    margin: 17px 0px 0px 55px; 
+    line-height: 40px;  
+}
+
+.git__right {
+
+    width: 381px;
+    height: 184px;
+}
+
+.git__right-text {
+    @include YellowBox();
+
+    width: 289.7px;
+    height: 63.37px;
+    margin: 27px 0px 0px 9px; 
+    line-height: 12px;  
+    padding: 4px;
+}
+
+.git__right-text-bottom {
+    @include YellowBox();
+
+    width: 176px;
+    height: 33px;
+    margin: 14px 0px 0px 9px;
+    line-height: 25px;  
+}
+
+.git__right-text-grey {
+    @include GreyBox(); 
+    
+    width: 176px;
+    height: 33px;
+    margin: -33px 0px 0px 194px;
+}
+
+.git__right-text-grey-bottom {
+    @include GreyBox(); 
+    
+    width: 189.29px;
+    height: 33px;
+    margin: 7px 0px 0px 94px;
+}
+.security__left {
+
+    width: 274px;
+    height: 254px;
+}
+
+.security__left-text {
+    @include OrangeBox();
+
+    width: 124.27px;
+    height: 40.33px;
+    margin: 20px 0px -12px 92px;
+}
+.security__left-text-white {
+    @include WhiteBox();
+
+    width: 244.02px;
+    height: 86.42px;
+    margin: 30px 0px 0px 29px;
+    line-height: 27px;;
+}
+
+.security {
+
+    width: 345px;
+    height: 254px;
+}
+.security-text {
+    @include YellowBox();
+
+    width: 306.16px;
+    height: 44.44px;
+    margin: -2px 0px 100px 24px;
+}
+
+.security-text-small {
+    @include YellowBox();
+
+    width: 171.91px;
+    height: 43.62px;
+    margin: 0px 0px 0px 44px;
+    line-height: 40px;
+}
+
+.security__right {
+
+    width: 381px;
+    height: 254px;
+}
+
+.security__right-text {
+    @include WhiteBox();
+
+    width: 342.08px;
+    height: 131.68px;
+    margin: 77px 0px 0px 3px;
+}
+
+.security__right-inside-left-text {
+    @include OrangeBox();
+
+    width: 131px;
+    height: 40.33px;
+    margin: 0px 0px 5px 6px;
+}
+
+.security__right-inside-right-text {
+    @include OrangeBox();
+
+    width: 180.46px;
+    height: 40.33px;
+    margin: -91px 0px 96px 150px;
+}
+
+.css__left {
+
+    width: 478px;
+    height: 118px;
+}
+
+.css__left-text {
+    @include YellowBox();
+
+    width: 118.95px;
+    height: 36px;    
+    margin: 0px 0px 3px 24px;
+}
+
+.css__left-text-grey {
+    @include GreyBox();
+
+    width: 118.95px;
+    height: 36px;
+    margin: 0px 0px 3px 24px;
+}
+
+.css__left-text-big {
+    @include YellowBox();
+
+    width: 322.27px;
+    height: 116px;
+    margin: -117px 0px 0px 155px;
+    padding: 4px;
+    line-height: 17px; 
+}
+
+.css__right {
+
+    width: 522px;
+    height: 118px;
+}
+
+.css__right-text {
+    @include YellowBox();
+
+    width: 120.16px;
+    height: 36px;
+    margin: -117px 0px 0px 364px;
+}
+
+.css__right-text-big {
+    @include YellowBox();
+
+    width: 322.27px;
+    height: 116px;
+    margin: 0px 0px 0px 16px;
+    padding: 4px;
+    line-height: 17px;
+}
+
+.css__right-text-orange {
+    @include OrangeBox();
+
+    width: 120.16px;
+    height: 36px;
+    margin: 3px 0px 0px 364px;
+}
+
+.css__right-text-grey {
+    @include GreyBox();
+
+    width: 120.16px;
+    height: 36px;
+    margin: 3px 0px 0px 364px;
+}
+
+
+.task__left {
+
+    width: 613px;
+    height: 139px;
+}
+
+.task__left-text {
+    @include YellowBox();
+
+    width: 145.16px;
+    height: 37.38px;
+    margin: 43px 0px 0px 22px;
+}
+
+.task__left-text-grey {
+    @include GreyBox();
+
+    width: 145.16px;
+    height: 36.21px;
+    margin: 4px 0px 0px 22px;
+}
+
+.task__middle-one-text {
+    @include YellowBox();
+
+    width: 113.57px;
+    height: 41.15px;
+    margin: -55px 0px 0px 215px;
+}
+
+.task__middle-two-text {
+    @include YellowBox();
+
+
+    width: 176.12px;
+    height: 41.15px;
+    margin: -42px 0px 0px 389px;
+}
+
+
+.task__right {
+
+    width: 387px;
+    height: 139px;
+}
+
+.task__right-text {
+    @include YellowBox();
+
+
+    width: 183.63px;
+    height: 41.97px;
+    margin: 65px 0px 0px 1px;
+}
+
+.task__right-multi-text {
+    @include YellowBox();
+
+
+    width: 118.14px;
+    height: 32.92px;
+    margin: -81px 0px 85px 232px;
+}
+
+.task__right-multi-text-grey {
+    @include GreyBox();
+
+    width: 118.8px;
+    height: 36px;
+    margin: -81px 0px 0px 232px;
+}
+
+.bundlers__left {
+
+    width: 205px;
+    height: 369px;
+}
+
+.bundlers__left-text {
+    @include YellowBox();
+
+
+    width: 144.85px;
+    height: 32.92px;
+    margin: -3px 0px 3px 23px;
+}
+
+.bundlers__left-text-orange {
+    @include OrangeBox();
+
+    width: 144.85px;
+    height: 32.92px;
+    margin: 0px 0px 3px 23px;
+}
+
+.bundlers__left-text-bottom {
+    @include YellowBox();
+
+    width: 181.88px;
+    height: 32.92px;
+    margin: 38px 0px -34px 23px;
+}
+
+.bundlers__left-text-bottom-orange {
+    @include OrangeBox();
+
+    width: 181.88px;
+    height: 32.92px;
+    margin: 39px 0px -34px 23px;
+}
+
+.bundlers__left-text-bottom-grey {
+    @include GreyBox();
+
+    width: 181.88px;
+    height: 32.92px;
+    margin: 41px 0px -34px 23px;
+}
+
+.bundlers {
+
+    width: 426px;
+    height: 369px;
+}
+
+.bundlers-text {
+    @include YellowBox();
+
+    width: 145.67px;
+    height: 41.15px;
+    margin: 25px 0px 0px 32px;
+}
+
+.bundlers-text-left {
+    @include YellowBox();
+
+    width: 186px;
+    height: 43px;
+    margin: 55px 0px 0px 239px;
+}
+
+.bundlers-text-right {
+    @include YellowBox();
+
+    width: 141px;
+    height: 41.15px;
+    margin: 40px 0px 0px 90px;
+}
+
+.bundlers-text-bottom {
+    @include YellowBox();
+
+    width: 136.46px;
+    height: 41.15px;
+    margin: 38px 0px 0px 289px;
+}
+
+.bundlers__right {
+
+    width: 369px;
+    height: 369px;
+}
+
+.bundlers__right-text {
+    @include YellowBox();
+
+    width: 119.33px;
+    height: 32.92px;    
+    margin: 46px 0px 0px 25px;
+}
+
+.bundlers__right-text-right-no {
+    @include YellowBox();
+
+    width: 145.67px;
+    height: 32.92px;
+    margin: -52px 0px 0px 219px;
+}
+
+.bundlers__right-text-right-orange {
+    @include OrangeBox();
+
+    width: 145.67px;
+    height: 32.92px;
+    margin: 3px 0px 0px 219px;
+}
+
+.bundlers__right-text-orange {
+    @include OrangeBox();
+
+    width: 119.34px;
+    height: 32.92px;
+    margin: 26px 0px -64px 51px;
+}
+
+.bundlers__right-text-right {
+    @include YellowBox();
+
+    width: 145.67px;
+    height: 32.92px;
+    margin: 18px 0px -12px 219px;
+}
+
+
+.bundlers__right-text-right-yes {
+    @include YellowBox();
+
+    width: 145.67px;
+    height: 32.92px;
+    margin: 29px 0px 0px 219px;;
+}
+
+.bundlers__right-text-bottom-orange {
+    @include OrangeBox();
+
+    width: 156.37px;
+    height: 32.92px;
+    margin: 26px 0px -23px 75px;
+}
+
+.testing__left {
+
+    width: 205px;
+    height: 291px;
+}
+
+.testing__left-text-whitebox {
+    @include WhiteBox();
+
+    width: 203.28px;
+    height: 210.69px;
+    margin: 72px 0px 0px 0px;;
+}
+
+.testing__left-text {
+    @include YellowBox();
+
+    width: 177.77px;
+    height: 32.92px;
+    margin: 3px 0px 0px 12px;;
+}
+
+.testing {
+
+    width: 352px;
+    height: 291px;
+}
+
+.testing-text {
+    @include YellowBox();
+
+    width: 214.8px;
+    height: 41.15px;
+    margin: 25px 0px 0px 69px;;
+}
+
+.testing-text-bottom {
+    @include YellowBox();
+
+    width: 332.96px;
+    height: 130.03px;
+    margin: 30px 0px 0px 19px;
+    line-height: 24px;
+}
+
+.testing-text-bottom-grey {
+    @include GreyBox();
+
+    width: 82.29px;
+    height: 34.57px;
+    margin: 7px 0px 0px 19px;
+}
+
+.testing__right {
+
+    width: 443px;
+    height: 291px;
+}
+
+.testing__right-first-text {
+    @include YellowBox();
+
+    width: 168.71px;
+    height: 32.92px;
+    margin: 3px 0px 0px 12px;
+}
+
+.testing__right-first-text-whitebox {
+    @include WhiteBox();
+
+    width: 195.87px;
+    height: 231.26px;
+    margin: 4px 0px 0px 30px;;
+}
+
+.testing__right-second-text {
+    @include YellowBox();
+
+    width: 168.71px;
+    height: 32.92px;
+    margin: 3px 0px 0px 12px;
+}
+
+.testing__right-second-text-whitebox {
+    @include WhiteBox();
+
+    width: 195.87px;
+    height: 231.26px;
+    margin: -231px 0px 0px 236px;
+}
+
+.testing__right-second-text-orange {
+    @include OrangeBox();
+
+    width: 168.71px;
+    height: 32.92px;
+    margin: 3px 0px 0px 12px;
+}
+
+.progressive__left-left {
+
+    width: 205px;
+    height: 378px;
+}
+
+.progressive__left-left-text-whitebox {
+    @include WhiteBox();
+
+    width: 186.82px;
+    height: 318.5px;
+    margin: 25px 0px 0px 18px;
+}
+
+.progressive__left-left-text {
+    @include YellowBox();
+
+    width: 145.67px;
+    height: 28.34px;
+    margin: 3px 0px 0px 17px;
+}
+
+.progressive__left-left-text-orange {
+    @include OrangeBox();
+
+    width: 145.67px;
+    height: 28.34px;
+    margin: 3px 0px 0px 17px;
+}
+
+.progressive__left {
+
+    width: 282px;
+    height: 378px;
+}
+
+.progressive__left-text {
+    @include YellowBox();
+
+    width: 174.9px;
+    height: 41.15px;
+    margin: 26px 0px 0px 107px;
+}
+
+.progressive__left-text-bottom-whitebox {
+    @include WhiteBox();
+
+    width: 215.62px;
+    height: 229.62px;
+    margin: 48px 0px 0px 19px;
+}
+
+.progressive__left-text-bottom {
+    @include YellowBox();
+
+    width: 185.17px;
+    height: 26.34px;
+    margin: 3px 0px 0px 12px;
+    line-height: 18px; 
+}
+
+
+.progressive {
+
+    width: 289px;
+    height: 378px;
+}
+
+.progressive-text {
+    @include YellowBox();
+
+    width: 186px;
+    height: 41.15px;
+    margin: 26px 0px 0px 86px;
+}
+
+.progressive-text-middle {
+    @include YellowBox();
+
+    width: 228.79px;
+    height: 41.15px;
+    margin: 60px 0px 0px 21px;
+}
+
+.progressive-text-bottom-one {
+    @include YellowBox();
+
+    width: 104.16px;
+    height: 41.15px;
+    margin: 145px 0px 0px 0px;
+}
+
+.progressive-text-bottom-two {
+    @include YellowBox();
+
+    width: 137.44px;
+    height: 33.74px;
+    margin: -55px 0px 59px 149px;
+}
+
+.progressive__right {
+
+    width: 224px;
+    height: 378px;
+}
+
+.progressive__right-text {
+    @include YellowBox();
+
+    width: 163.78px;
+    height: 33.74px;
+    margin: 10px 0px 0px 32px;
+}
+
+.progressive__right-text-grey {
+    @include GreyBox();
+
+    width: 162.13px;
+    height: 33.74px;
+    margin: 6px 0px 0px 32px;
+}
+
+.progressive__right-text-middle {
+    @include YellowBox();
+
+    width: 95.47px;
+    height: 33.74px;
+    margin: 48px 0px 0px 0px;
+}
+
+.progressive__right-text-middle-right {
+    @include YellowBox();
+
+    width: 77.36px;
+    height: 33.74px;
+    margin: -51px 0px 7px 139px;
+}
+
+.progressive__right-text-middle-grey {
+    @include GreyBox();
+
+    width: 77.36px;
+    height: 33.74px;
+    margin: 0px 0px 0px 139px;
+}
+
+.progressive__right-text-bottom-one {
+    @include OrangeBox();
+
+    width: 93.86px;
+    height: 33.74px;
+    margin: 17px 0px -6px 1px;
+}
+
+.progressive__right-text-bottom-two {
+    @include OrangeBox();
+
+    width: 93.86px;
+    height: 33.74px;
+    margin: -79px 0px 90px 123px;
+}
+
+.mobile__left {
+
+    width: 521px;
+    height: 239px;
+}
+
+.mobile__left-text {
+    @include YellowBox();
+
+    width: 120.98px;
+    height: 33.74px;
+    margin: -4px 0px 3px 18px;
+}
+
+.mobile__left-text-orange {
+    @include OrangeBox();
+
+    width: 120.98px;
+    height: 33.74px;
+    margin: 0px 0px 3px 18px;
+}
+
+.mobile__left-text-left-one {
+    @include YellowBox();
+
+    width: 172.83px;
+    height: 41.15px;
+    margin: -91px 0px 0px 258px;
+}
+
+.mobile__left-text-left-two {
+    @include YellowBox();
+
+    width: 198.34px;
+    height: 41.15px;
+    margin: 60px 0px 0px 261px;
+}
+
+.mobile {
+
+    width: 246px;
+    height: 239px;
+}
+
+.mobile-text {
+    @include YellowBox();
+
+    width: 231.26px;
+    height: 41.15px;
+    margin: 50px 0px 0px 16px;
+}
+
+.mobile-text-bottom {
+    @include YellowBox();
+
+    width: 154.04px;
+    height: 33.74px;
+    margin: 31px 0px 5px 0px;
+}
+
+.mobile-text-bottom-grey {
+    @include GreyBox();
+
+    width: 154.04px;
+    height: 33.74px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+.mobile__right {
+
+    width: 231px;
+    height: 239px;
+}
+
+.mobile__right-text {
+    @include YellowBox();
+
+    width: 120.98px;
+    height: 33.74px;
+    margin: 0px 0px 4px 105px;
+}
+
+.mobile__right-text-orange {
+    @include OrangeBox();
+
+    width: 120.98px;
+    height: 33.74px;
+    margin: 0px 0px 4px 105px;
+}
+
+.end {
+
+    width: 1000px;
+    height: 305px;
+}
+
+.end-text {
+    @include YellowBox();
+
+    width: 172.83px;
+    height: 41.15px;
+    margin: 65px 0px 3px 53px;
+}
+
+.end-text-end {
+    @include YellowBox();
+
+    width: 170.36px;
+    height: 41.15px;
+    margin: 104px 0px 3px 64px;
+}
+
+.bright-text {
+    width: 120px;
+    height: 40px;
+    color: rgb(231, 228, 228);
+    margin: 10px 0px 0px 250px;
+
+}
+
+
+@media only screen and (max-width: 1140px) {
+    body {
+      background-color: blue;
+
+    }
+    .background {
+        background: none;
+    }
+
+  
+}
+
+@media only screen and (max-width: 960px) {
+    body {
+      background-color: red;
+    }
+    .background {
+        background: none;
+    }
+
+}
+@media only screen and (max-width: 720px) {
+    body {
+      background-color: lightblue;
+    }
+    .background {
+        background: none;
+    }
+}
