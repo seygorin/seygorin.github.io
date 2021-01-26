@@ -18,13 +18,6 @@ window.addEventListener('resize', function() {
 	}
 });
 
-window.addEventListener('resize', function() {
-	if (window.innerWidth >= 800) {
-		window.location.href = "fe-way.html"; 
-	}
-});
-
-
 // add dropped spase for items in mobile
 
 $( ".internet" ).click(function() {
