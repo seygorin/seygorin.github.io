@@ -1,0 +1,1126 @@
+  /* Mixins for different color block */
+  
+  @mixin YellowBox {
+    font-size: 1.2963vh;
+    font-weight: bold;
+    background-color:#FFFF00;
+    text-align: center;
+    line-height: 2.963vh;  
+    border: 0.4vh solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+}
+
+@mixin OrangeBox {
+    font-size: 1.2963vh;
+    font-weight: bold;
+    background-color:#FFE599;
+    text-align: center;
+    border: 0.4vh solid black;
+    line-height: 2.963vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+}
+
+@mixin GreyBox {
+    font-size: 1.2963vh;
+    color: #616161;
+    font-weight: bold;
+    background-color:#D4D4D4;
+    text-align: center;
+    border: 0.4vh solid black;
+    line-height: 2.963vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+}
+
+@mixin WhiteBox {
+    font-size: 1.2963vh;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 0.4vh solid black;
+    line-height: 2.963vh;  
+    opacity: 85%;
+}
+
+  /* Text on the top and legend */
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4.0vh;
+    font-weight: bold;
+
+}
+
+.text-inside {
+    @include YellowBox();
+
+    color: rgb(59, 71, 80);
+
+    width: 7vw;
+    height: 3vh;
+    font-weight: normal;
+    border: 0.20926vh solid black;
+}
+.text-inside-orange {
+    @include OrangeBox();
+
+    color: rgb(59, 71, 80);
+
+    width: 7vw;
+    height: 3vh;
+    font-weight: normal;
+    border: 0.20926vh solid black;
+}
+.text-inside-grey {
+    @include GreyBox();
+
+    color: rgb(59, 71, 80);
+
+    width: 7vw;
+    height: 3vh;
+    font-weight: normal;
+    border: 0.20926vh solid black;
+}
+
+.text-inside-url {
+    @include OrangeBox();
+
+    font-size: 2vw;
+
+    color: rgb(59, 71, 80);
+    width: 21vw;
+
+    font-weight: bold;
+    border: 0.20926vh solid black;
+
+}
+
+.legend {
+    margin-left: 70vw;
+    margin-top: -2vh;
+    position: absolute;
+    width: 24vw;
+    height: 7vh;
+
+}
+
+.question {
+    font-size: 2vh;
+
+
+}
+  /* First block (box + text inside) - Internet */
+  .drop-bigest {
+    margin-bottom: 54vh;
+  }
+
+  .drop-big {
+    margin-bottom: 26vh;
+  }
+
+  .drop {
+    margin-bottom: 19vh;
+  }
+
+  .drop-middle {
+    margin-bottom: 13vh;
+  }
+
+  .drop-small {
+    margin-bottom: 7vh;
+  }
+
+  #internetDrop, #htmlDrop, #cssDrop, #jsDrop, #gitDrop, #securityDrop, #packageDrop, #cssArchDrop, #cssPrepDrop, #buildToolDrop, #frameworksDrop, #modernCssDrop, #webCompDrop, #cssFrameworksDrop, #testingDrop, 
+   #typeCheckDrop, #pwaDrop, #ssrDrop, #graphDrop, #ssgDrop, #mobileAppDrop, #desktopAppDrop {
+      display: none;
+  }
+
+.internet {
+    height: 10vh;
+}
+
+.internet-txt {
+
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.internet-text-orange {
+    @include OrangeBox();   
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+
+}
+.internet__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+
+.internet__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+  /* Second block - CSS / HTML / JS */
+
+.html-info {
+    height: 10vh;
+}
+
+.html-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.html-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.html__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.html__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.css {
+    height: 10vh;
+}
+
+.css-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.css-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css-text-orange-big {
+    opacity: 85%;
+    font-weight: bold;
+    background-color:#FFE599;
+    text-align: center;
+    line-height: 2.55vh;  
+    border: 0.4vh solid black;
+    height: 15.3vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css__right {
+    float: right;
+    width: 25.0vw;
+    height: 17vh;
+    margin: 1.0vw;
+}
+
+.css__left {
+    float: left;
+    width: 67.0vw;
+    margin: 1.0vw;
+
+}
+
+.javascript {
+    height: 10vh;
+}
+
+.javascript-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.javascript-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.javascript-text-orange-big {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.3vh;
+    padding-top: 1.7519vh;
+}
+
+.javascript__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.javascript__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.javascript__center {
+    float: left;
+    width: 95vw;
+    margin-left: 1vw;
+}
+
+
+.git {
+    height: 10vh;
+}
+
+.git-text-mobile {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.git-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    line-height: 1.963vh;  
+}
+
+.git-text-yellow-big {
+    @include YellowBox();
+    height: 10vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    line-height: 1.963vh;  
+}
+
+.git-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+.git__right {
+
+    float: right;
+    width: 46vw;
+    margin: 1vw;
+}
+
+.git__left {
+    float: left;
+    width: 46vw;
+    margin: 1vw;
+}
+
+.git__center {
+    float: left;
+    width: 95vw;
+    margin-left: 1vw;
+}
+
+.security {
+    height: 10vh;
+}
+
+.security-text-mobile {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.security-text-white {
+    @include WhiteBox();
+    height: 15vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.security-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.security__left {
+    float: left;
+
+    width: 45vw;
+    margin: 1.0vw;
+    margin-top: -0.5vw;
+}
+
+.security__right {
+    float: right;
+    
+    width: 46vw;
+    margin: 1.0vw;
+    margin-top: -0.5vw;
+}
+
+
+.package {
+    height: 10vh;
+}
+
+.package-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+
+}
+
+.package-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+
+}
+
+.package__center {
+    float: left;
+    margin-left: 2vw;
+    width: 46vw;
+}
+
+.css-arch {
+    height: 10vh;
+}
+
+.css-arch-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.css-arch-text-yellow {
+    @include YellowBox();
+    height: 10vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+
+.css-arch-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css-arch__left {
+    float: left;
+    margin: 1vw;
+    width: 46vw;
+}
+
+.css-arch__right {
+    float: right;
+    margin: 1vw;
+    width: 46vw;
+}
+
+.css-prep {
+    height: 10vh;
+}
+
+.css-prep-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.css-prep-text-yellow {
+    @include YellowBox();
+    height: 10vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css-prep-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css-prep-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css-prep__left {
+    float: left;
+    width: 46vw;
+    margin: 1.0vw;
+}
+
+.css-prep__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+
+.build-tool {
+    height: 10vh;
+}
+
+.build-tool-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.build-tool-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.build-tool-text-yellow-small {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 20vw;
+    margin-left: 1vw;
+}
+
+.build-tool-text-yellow-smaller {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 13vw;
+    margin-left: 1vw;
+}
+.build-tool-text-yellow-bottom {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.build-tool-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.build-tool-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 20vw;
+    margin-left: 1vw;
+}
+
+.build-tool-text-grey-small {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 13vw;
+    margin-left: 1vw;
+}
+
+.build-tool__center {
+    float: left;
+    width: 95.0vw;
+    margin: 1.0vw;
+    margin-top: -1vw;
+}
+
+.build-tool__center-bottom {
+    float: left;
+    width: 94.0vw;
+    margin: 1.0vw;
+}
+
+.build-tool__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.build-tool__right-bottom {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+.build-tool__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.build-tool__left-bottom {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.frameworks {
+    height: 10vh;
+
+}
+
+.frameworks-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.frameworks-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.frameworks-text-yellow-small {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 11vw;
+    margin: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.frameworks-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.frameworks-text-orange-small {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 11vw;
+    margin: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+
+
+.frameworks__left {
+    float: left;
+    width: 30.0vw;
+    margin: 1.0vw;
+}
+
+
+.modern-css {
+    height: 10vh;
+}
+
+.modern-css-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.modern-css-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 46vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.modern-css-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 46vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.modern-css-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 46vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.modern-css__left {
+    margin: 1vw;
+}
+
+
+.web-comp {
+    height: 10vh;
+}
+
+.web-comp-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.web-comp-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+
+.web-comp__left {
+    margin: 1.0vw;
+}
+
+
+.css-frameworks {
+    height: 10vh;
+    
+}
+
+.css-frameworks-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.css-frameworks-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 20vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.css-frameworks-text-yellow-big {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 42vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.css-frameworks-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 20vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.css-frameworks-text-whitebox {
+    @include WhiteBox();
+    height: 20vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.css-frameworks__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.css-frameworks__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+
+.testing {
+    height: 10vh;
+}
+
+.testing-text-mobile {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.testing-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 21vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.testing-text-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 21vw;
+    margin-right: 1vw;
+    margin-left: 3vw;
+}
+
+.testing-text-text-whitebox {
+    @include WhiteBox();
+    height: 11vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.testing__left {
+    float: left;
+    width: 95.0vw;
+    margin: 1.0vw;
+}
+
+.testing__right {
+    float: right;
+    width: 95.0vw;
+    margin: 1.0vw;
+}
+
+
+.type-check {
+    height: 10vh;
+}
+
+.type-check-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.type-check-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.type-check-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.type-check__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.type-check__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+
+.pwa {
+    height: 10vh;
+
+}
+
+.pwa-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.pwa-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 40vw;
+    margin-left: 3vw;
+}
+
+.pwa-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 40vw;
+    margin-left: 3vw;
+}
+
+.pwa-text-whitebox {
+    @include WhiteBox();
+    height: 51vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.pwa-text-whitebox-right {
+    @include WhiteBox();
+    height: 35vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.pwa__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.pwa__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+
+
+.ssr {
+    height: 10vh;
+}
+
+.ssr-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.ssr-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.ssr-text-yellow-small {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 13vw;
+
+}
+
+.ssr-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.ssr-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 13vw;
+    margin-left: 3vw;
+}
+
+.ssr__left {
+    float: left;
+    width: 30.0vw;
+    margin: 1.0vw;
+}
+
+.ssr__right {
+    float: right;
+    width: 30.0vw;
+    margin: 1.0vw;
+}
+
+
+.graph {
+    height: 10vh;
+}
+
+.graph-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.graph-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+
+.graph__left {
+    float: left;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+.graph__right {
+    float: right;
+    width: 46.0vw;
+    margin: 1.0vw;
+}
+
+
+
+.ssg {
+    height: 10vh;
+}
+
+.ssg-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.ssg-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.ssg-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+}
+
+.ssg__left {
+    float: left;
+    width: 30.0vw;
+    margin: 1.0vw;
+}
+
+.mobile-app {
+    height: 10vh;
+}
+
+.mobile-app-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.mobile-app-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 22vw;
+    margin-left: 1vw;
+}
+.mobile-app-text-orange {
+    @include OrangeBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 22vw;
+    margin-left: 2vw;
+}
+
+.desktop-app {
+    height: 10vh;
+}
+
+.desktop-app-text {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.desktop-app-text-yellow {
+    @include YellowBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.desktop-app-text-grey {
+    @include GreyBox();
+    height: 4.5vh;
+    margin-top: 0.9259vh;
+    font-size: 1.5vh;
+    width: 30vw;
+    margin-left: 2vw;
+}
+
+.end {
+    height:10vh;
+}
+
+.end-text-mobile {
+    @include YellowBox();
+    height: 9vh;
+    font-size: 4.0vh;
+}
+
+.bright {
+    height: 10vh;
+}
+
+.bright-text-mobile {
+    margin-left: 30vw;
+    height: 9vh;
+    font-size: 4.0vh;
+}
