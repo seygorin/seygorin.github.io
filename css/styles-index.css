@@ -395,7 +395,7 @@ body {
 	padding: 0.5vw;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
 	.dual {
 		width: 87vw;
 		margin: 0em auto 0vh;
@@ -418,12 +418,35 @@ body {
 		padding-bottom: 10vh;
 
 	}
-	.btn--social {
-		font-size: 1.5vw;
+	.btn {
+		font-size: 3vw;
 	}
+	.content__btn {
+		margin-left: 30vw;
+	}
+	.content__description {
+		font-size: 4vw;
+	}
+	
 	.form__input {
 		font-size: 4vw;
 	}
+
+	.menu__item {
+		padding-top: 2em;
+		padding-left: 0em;
+	}
+
+	.menu .menu__link {
+		font-size: 4vw;
+		color: #4f4f54;
+		font-weight: bold;
+	}
+	
+	.modal__text {
+	text-align: left;
+	font-size: 4vw;
+}
 }	
 
 @media (max-width: 799px) {

@@ -12,11 +12,8 @@ $('body').tooltip({
 
 // Switch between mobile and desktop 
 
-window.addEventListener('resize', function() {
-	if (window.innerWidth <= 799) {
-		window.location.href = "fe-way-mobile.html"; 
-	}
-});
+// meh~
+
 
 // add dropped spase for items in mobile
 

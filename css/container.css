@@ -1379,4 +1379,14 @@
   text-align: center;
   padding-top: 0.9259vh;
 }
+
+.redirect {
+  color: pink;
+  background: lightskyblue;
+}
+
+.redirect-text {
+  margin-left: 5vw;
+  font-style: oblique;
+}
 /*# sourceMappingURL=container.css.map */

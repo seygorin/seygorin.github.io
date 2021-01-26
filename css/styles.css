@@ -1,3 +1,9 @@
+.man {
+  position: absolute;
+  top: 179vh;
+  right: 44vw;
+}
+
 .background {
   background-image: url(/img/frontend1920.png);
   background-repeat: no-repeat;
@@ -205,5 +211,15 @@ a:active {
   .tooltip-grey > .tooltip-inner {
     font-size: 2vh;
   }
+
+  .html-text-orange, .javascript-text-orange-big, .css-frameworks-text-orange, .css-frameworks-text-yellow, .testing-text-yellow {
+    line-height: 1.4vh;
+  }
+
+  .text-inside, .text-inside-orange, .text-inside-grey, .text-inside-url {
+    font-size: 2.2vw;
+  }
 }
+
+
 /*# sourceMappingURL=styles.css.map */
