@@ -1,7 +1,7 @@
 .man {
   position: absolute;
-  top: 179vh;
-  right: 44vw;
+  top: 168.5vh;
+  right: 42.5vw;
 }
 
 .background {
@@ -105,6 +105,11 @@ a:active {
 
 .tooltip-grey > .tooltip-inner {
   background-color: #D4D4D4;
+  font-size: 1.2963vh;
+}
+
+.tooltip-white > .tooltip-inner {
+  background-color: white;
   font-size: 1.2963vh;
 }
 

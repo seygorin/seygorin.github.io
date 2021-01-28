@@ -284,4 +284,16 @@ document.documentElement.className = 'js';
 
 })();
 
+// Here i break script (animation) for mobile devices 
 
+  function detectmob() {
+    if(window.innerWidth <= 699 || window.innerHeight <= 600) {
+      return true;
+    } else {
+      return false;
+    }
+ }
+ 
+ if (detectmob()){
+  document.getElementById('rev-1').id = 'rev-2';
+ }

@@ -55,6 +55,18 @@
   border: 0.0926vh solid black;
 }
 
+.text-inside-progress {
+  font-size: 1.5vh;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.963vh;
+  width: 8.8vw;
+  height: 3vh;
+  margin-left: 80.2vw;
+  margin-top: -6vh;
+  border: 0.0926vh solid black;
+}
+
 /* First block (box + text inside) - Internet */
 .internet {
   width: 17.9167vw;
@@ -1389,4 +1401,7 @@
   margin-left: 5vw;
   font-style: oblique;
 }
+
+
+
 /*# sourceMappingURL=container.css.map */

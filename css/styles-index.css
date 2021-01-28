@@ -446,11 +446,7 @@ body {
 	.modal__text {
 	text-align: left;
 	font-size: 4vw;
-}
+	}
 }	
 
-@media (max-width: 799px) {
-	#rev-1, #rev-2, #rev-3, #rev-4, #rev-5, #rev-6, #rev-7 {
 
-	} 
-}	
