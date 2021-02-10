@@ -70,7 +70,7 @@ document.documentElement.className = 'js';
         revealSettings : {
           bgcolor: '#ffe599',
           direction: 'bt',
-          delay: 2500,
+          delay: 1500,
           onCover: function(contentEl, revealerEl) {
             contentEl.style.opacity = 1;
           }

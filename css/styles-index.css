@@ -263,7 +263,7 @@ body {
 .form {
 	width: 100%;
     height: 100%;
-	overflow-y: auto;
+	overflow-y: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -359,7 +359,6 @@ body {
 }
 
 .dual__inner {
-
 	position: absolute;
 	width: 100%;
 	height: 100%;	
@@ -367,13 +366,12 @@ body {
 }
 
 .dual__half {
-
 	position: absolute;
 	height: 100%;
 	width: 51%;
 	right: 0;
-	background: url(../img/2.png) no-repeat 50% 0%;
-	background-size: cover;
+	background: url(../img/2.png) no-repeat;
+	background-size: 100%;
 }
 
 .dual__content {
@@ -395,6 +393,36 @@ body {
 }
 #rev-4 {
 	padding: 0.5vw;
+}
+@media (max-width: 1367px) {
+
+	.content__img-position {
+		margin-bottom: 0vw;
+	}
+	.content__title  {
+		font-size: 8vw;
+
+	}
+	.btn {
+		font-size: 1.5vw;
+	}
+	.content__btn {
+		margin-left: 38vw;
+	}
+	.content__description {
+		font-size: 1.5vw;
+	}
+	
+	.form__input {
+		font-size: 1.5vw;
+	}
+	.form__inner {
+		position: relative;
+		height: 100vh;
+		padding: 2vw;
+		overflow-y: auto;
+	}
+
 }
 
 @media (max-width: 1200px) {
@@ -421,17 +449,17 @@ body {
 
 	}
 	.btn {
-		font-size: 3vw;
+		font-size: 2vw;
 	}
 	.content__btn {
 		margin-left: 30vw;
 	}
 	.content__description {
-		font-size: 4vw;
+		font-size: 2vw;
 	}
 	
 	.form__input {
-		font-size: 4vw;
+		font-size: 2vw;
 	}
 
 	.menu__item {
@@ -440,19 +468,22 @@ body {
 	}
 
 	.menu .menu__link {
-		font-size: 4vw;
+		font-size: 3vw;
 		color: #4f4f54;
 		font-weight: bold;
 	}
 	
 	.modal__text {
 	text-align: left;
-	font-size: 4vw;
+	font-size: 2vw;
 	}
 }	
 
-@media (max-height: 700px) {
+@media (max-height: 768px) {
 .form__inner {
 	position: relative;
+}
+.form {
+	overflow-y: auto;
 }
 }
