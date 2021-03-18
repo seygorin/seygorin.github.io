@@ -68,7 +68,7 @@
 
     color: rgb(59, 71, 80);
 
-    width: 7vw;
+    width: 8vw;
     height: 3vh;
     font-weight: normal;
     border: 0.20926vh solid black;
@@ -78,7 +78,7 @@
 
     color: rgb(59, 71, 80);
 
-    width: 7vw;
+    width: 8vw;
     height: 3vh;
     font-weight: normal;
     border: 0.20926vh solid black;
@@ -88,7 +88,7 @@
 
     color: rgb(59, 71, 80);
 
-    width: 7vw;
+    width: 8vw;
     height: 3vh;
     font-weight: normal;
     border: 0.20926vh solid black;
@@ -100,7 +100,7 @@
     font-size: 2vw;
 
     color: rgb(59, 71, 80);
-    width: 21vw;
+    width: 24vw;
 
     font-weight: bold;
     border: 0.20926vh solid black;
@@ -149,6 +149,8 @@
 
 .internet {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .internet-txt {
@@ -167,14 +169,14 @@
 }
 .internet__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 
 .internet__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
@@ -182,6 +184,8 @@
 
 .html-info {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .html-text {
@@ -199,18 +203,20 @@
 
 .html__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .html__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .css {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .css-text {
@@ -247,13 +253,15 @@
 
 .css__left {
     float: left;
-    width: 67.0vw;
+    width: 66.0vw;
     margin: 1.0vw;
 
 }
 
 .javascript {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .javascript-text {
@@ -279,13 +287,13 @@
 
 .javascript__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .javascript__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
@@ -298,6 +306,8 @@
 
 .git {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .git-text-mobile {
@@ -333,13 +343,13 @@
 .git__right {
 
     float: right;
-    width: 46vw;
+    width: 45vw;
     margin: 1vw;
 }
 
 .git__left {
     float: left;
-    width: 46vw;
+    width: 45vw;
     margin: 1vw;
 }
 
@@ -351,6 +361,8 @@
 
 .security {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .security-text-mobile {
@@ -384,7 +396,7 @@
 .security__right {
     float: right;
     
-    width: 46vw;
+    width: 45vw;
     margin: 1.0vw;
     margin-top: -0.5vw;
 }
@@ -392,6 +404,8 @@
 
 .package {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .package-text {
@@ -412,11 +426,13 @@
 .package__center {
     float: left;
     margin-left: 2vw;
-    width: 46vw;
+    width: 45vw;
 }
 
 .css-arch {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .css-arch-text {
@@ -443,17 +459,19 @@
 .css-arch__left {
     float: left;
     margin: 1vw;
-    width: 46vw;
+    width: 45vw;
 }
 
 .css-arch__right {
     float: right;
     margin: 1vw;
-    width: 46vw;
+    width: 45vw;
 }
 
 .css-prep {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .css-prep-text {
@@ -485,19 +503,21 @@
 
 .css-prep__left {
     float: left;
-    width: 46vw;
+    width: 45vw;
     margin: 1.0vw;
 }
 
 .css-prep__right {
     float: right;
-    width: 46.0vw;
+    width: 45vw;
     margin: 1.0vw;
 }
 
 
 .build-tool {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .build-tool-text {
@@ -581,30 +601,31 @@
 
 .build-tool__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .build-tool__right-bottom {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 .build-tool__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .build-tool__left-bottom {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .frameworks {
     height: 10vh;
-
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .frameworks-text {
@@ -653,13 +674,15 @@
 
 .frameworks__left {
     float: left;
-    width: 30.0vw;
+    width: 29.0vw;
     margin: 1.0vw;
 }
 
 
 .modern-css {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .modern-css-text {
@@ -705,6 +728,8 @@
 
 .web-comp {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .web-comp-text {
@@ -730,7 +755,8 @@
 
 .css-frameworks {
     height: 10vh;
-    
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .css-frameworks-text {
@@ -754,7 +780,7 @@
     height: 4.5vh;
     margin-top: 0.9259vh;
     font-size: 1.5vh;
-    width: 42vw;
+    width: 41vw;
     margin-left: 2vw;
     margin-right: 2vw;
 }
@@ -778,19 +804,21 @@
 
 .css-frameworks__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .css-frameworks__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 
 .testing {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .testing-text-mobile {
@@ -828,19 +856,21 @@
 
 .testing__left {
     float: left;
-    width: 95.0vw;
+    width: 94.0vw;
     margin: 1.0vw;
 }
 
 .testing__right {
     float: right;
-    width: 95.0vw;
+    width: 94.0vw;
     margin: 1.0vw;
 }
 
 
 .type-check {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .type-check-text {
@@ -865,20 +895,21 @@
 
 .type-check__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .type-check__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 
 .pwa {
     height: 10vh;
-
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .pwa-text {
@@ -921,13 +952,13 @@
 
 .pwa__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .pwa__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
@@ -935,6 +966,8 @@
 
 .ssr {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .ssr-text {
@@ -977,19 +1010,21 @@
 
 .ssr__left {
     float: left;
-    width: 30.0vw;
+    width: 29.0vw;
     margin: 1.0vw;
 }
 
 .ssr__right {
     float: right;
-    width: 30.0vw;
+    width: 29.0vw;
     margin: 1.0vw;
 }
 
 
 .graph {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .graph-text {
@@ -1008,13 +1043,13 @@
 
 .graph__left {
     float: left;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
 .graph__right {
     float: right;
-    width: 46.0vw;
+    width: 45.0vw;
     margin: 1.0vw;
 }
 
@@ -1022,6 +1057,8 @@
 
 .ssg {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .ssg-text {
@@ -1046,12 +1083,14 @@
 
 .ssg__left {
     float: left;
-    width: 30.0vw;
+    width: 29.0vw;
     margin: 1.0vw;
 }
 
 .mobile-app {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .mobile-app-text {
@@ -1079,6 +1118,8 @@
 
 .desktop-app {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .desktop-app-text {
@@ -1107,6 +1148,8 @@
 
 .end {
     height:10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .end-text-mobile {
@@ -1117,10 +1160,13 @@
 
 .bright {
     height: 10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .bright-text-mobile {
-    margin-left: 30vw;
+    margin-left: 40vw;
     height: 9vh;
-    font-size: 4.0vh;
+    font-size: 1.5vh;
+    color: #e7e4e4;
 }

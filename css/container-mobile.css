@@ -1,6 +1,5 @@
 /* Mixins for different color block */
 /* Text on the top and legend */
-
 .text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,7 +537,7 @@
 
 .git__right {
   float: right;
-  width: 46vw;
+  width: 45vw;
   margin: 1vw;
 }
 
@@ -872,7 +871,7 @@
 
 .css-prep__right {
   float: right;
-  width: 45.0vw;
+  width: 45vw;
   margin: 1.0vw;
 }
 
@@ -1086,13 +1085,13 @@
 
 .build-tool__right {
   float: right;
-  width: 46.0vw;
+  width: 45.0vw;
   margin: 1.0vw;
 }
 
 .build-tool__right-bottom {
   float: left;
-  width: 46.0vw;
+  width: 45.0vw;
   margin: 1.0vw;
 }
 

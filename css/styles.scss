@@ -1,3 +1,9 @@
+.man {
+  position: absolute;
+  top: 168.5vh;
+  right: 42.5vw;
+}
+
 .background {
     background-image: url(/img/frontend1920.png);
     background-repeat: no-repeat;
@@ -102,7 +108,12 @@ a:link {
     background-color: #D4D4D4;
     font-size: 1.2963vh;
   }
-
+  
+  .tooltip-white > .tooltip-inner {
+    background-color: white;
+    font-size: 1.2963vh;
+  }
+  
   .tooltip-arrow {
     display: none !important;
 }
@@ -222,5 +233,13 @@ a:link {
 
     .tooltip-grey > .tooltip-inner {
          font-size: 2vh;
+    }
+
+    .html-text-orange, .javascript-text-orange-big, .css-frameworks-text-orange, .css-frameworks-text-yellow, .testing-text-yellow {
+      line-height: 1.4vh;
+    }
+  
+    .text-inside, .text-inside-orange, .text-inside-grey, .text-inside-url {
+      font-size: 2.2vw;
     }
 }

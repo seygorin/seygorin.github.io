@@ -6,7 +6,7 @@
     background-color:#FFFF00;
     text-align: center;
     line-height: 2.963vh;  
-    border: 0.1852vh solid black;
+    border: 0.252vh solid black;
 }
 
 @mixin OrangeBox {
@@ -14,7 +14,7 @@
     font-weight: bold;
     background-color:#FFE599;
     text-align: center;
-    border: 0.1852vh solid black;
+    border: 0.252vh solid black;
     line-height: 2.963vh;  
 }
 
@@ -24,7 +24,7 @@
     font-weight: bold;
     background-color:#D4D4D4;
     text-align: center;
-    border: 0.1852vh solid black;
+    border: 0.252vh solid black;
     line-height: 2.963vh;  
 }
 
@@ -34,7 +34,7 @@
     font-weight: bold;
     background-color: white;
     text-align: center;
-    border: 0.1852vh solid black;
+    border: 0.252vh solid black;
     line-height: 2.963vh;  
 }
 
@@ -80,6 +80,17 @@
     border: 0.0926vh solid black;
 }
 
+.text-inside-progress {
+    font-size: 1.5vh;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.963vh;
+    width: 8.8vw;
+    height: 3vh;
+    margin-left: 80.2vw;
+    margin-top: -5.9vh;
+    border: 0.0926vh solid black;
+  }
   /* First block (box + text inside) - Internet */
 
 .internet {
@@ -1061,3 +1072,14 @@
     text-align: center;
     padding-top: 0.9259vh
 }
+
+.redirect {
+    color: pink;
+    background: lightskyblue;
+  }
+  
+  .redirect-text {
+    margin-left: 5vw;
+    font-style: oblique;
+  }
+  

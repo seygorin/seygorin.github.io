@@ -29,30 +29,30 @@ header {
 }
 
 .header__title {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
   width: 85vw;
-  font-size: 3vh;
-  font-weight: bold;
+  font-size: 2.5vh;
   margin: 0;
+  padding: 0 0.5vw;
+}
+
+/* Top Navigation Style */
+.header-links {
+  border: 0.1042vw solid;
 }
 
 .header-icon {
   pointer-events: visible;
-  width: 2.5vw;
-  height: auto;
-  margin-right: 1vw;
-
+  display: inline-block;
+  padding: 1vw;
 }
 
-/* nav */
-.header--navs {
+/* Demo links */
+.demos {
   font-size: 1.7vh;
-  padding: 0.2vh 0 0 0;
+  padding: 0.8vh 0 0 0;
 }
 
-.header--nav {
+.demo {
   text-decoration: none;
   font-weight: bold;
   margin: 0 1.2vh 0 0;
@@ -216,15 +216,11 @@ a:active {
   .tooltip-grey > .tooltip-inner {
     font-size: 2vh;
   }
-
   .html-text-orange, .javascript-text-orange-big, .css-frameworks-text-orange, .css-frameworks-text-yellow, .testing-text-yellow {
     line-height: 1.4vh;
   }
-
   .text-inside, .text-inside-orange, .text-inside-grey, .text-inside-url {
     font-size: 2.2vw;
   }
 }
-
-
 /*# sourceMappingURL=styles.css.map */
