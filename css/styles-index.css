@@ -408,22 +408,6 @@ body {
     overflow-y: auto;
   }
 }
-.modal-box,
-.menu,
-.form,
-.three-d,
-.two-d {
-  display: none;
-}
-
-.loading .modal-box,
-.loading .menu,
-.loading .form,
-.loading .three-d,
-.loading .two-d {
-  display: none !important;
-}
-
 @media (max-width: 1200px) {
   .dual {
     width: 87vw;

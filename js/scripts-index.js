@@ -1,21 +1,25 @@
 document.documentElement.className = 'js';
-document.body.className = 'loading';
 
 (function() {
 
-  setTimeout(init, 500);
-
-  function init() {
+  const mainContent = document.getElementById('main-content');
+  mainContent.style.display = 'none';
+  
+  // Fake loading
+  setTimeout(() => {
 
     document.body.classList.remove('loading');
     
-    document.querySelectorAll('.modal-box, .menu, .form, .three-d, .two-d').forEach(el => {
-      el.style.display = 'block';
-    });
 
+    mainContent.style.display = 'block';
+    
+
+    init();
+  }, 1000);
+
+  function init() {
     var splitContent = document.querySelector('.dual__content');
     // Reveal on load 
-    
     var rev1 = new RevealFx(document.querySelector('#rev-1'), {
       revealSettings : {
         bgcolor: '#fcf652',
