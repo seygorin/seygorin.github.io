@@ -1,7 +1,13 @@
+.desktop-apps-container {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .man {
-  position: absolute;
-  top: 168.5vh;
-  right: 42.5vw;
+	position: absolute;
+	left: 47%;
+	top: 79.5%;
 }
 
 .background {
