@@ -14,7 +14,7 @@
   text-align: center;
   line-height: 2.963vh;
   border: 0.252vh solid black;
-  color: #3b4750;
+  color: rgb(59, 71, 80);
   width: 3vw;
   height: 3vh;
   font-weight: normal;
@@ -29,7 +29,7 @@
   text-align: center;
   border: 0.252vh solid black;
   line-height: 2.963vh;
-  color: #3b4750;
+  color: rgb(59, 71, 80);
   width: 3vw;
   height: 3vh;
   font-weight: normal;
@@ -46,7 +46,7 @@
   text-align: center;
   border: 0.252vh solid black;
   line-height: 2.963vh;
-  color: #3b4750;
+  color: rgb(59, 71, 80);
   width: 3vw;
   height: 3vh;
   font-weight: normal;
@@ -412,7 +412,7 @@
   line-height: 2.963vh;
   width: 17.8167vw;
   height: 14.1926vh;
-  margin: 7.1296vh 0vw 0vh .1563vw;
+  margin: 7.1296vh 0vw 0vh 0.1563vw;
 }
 
 .security__right-inside-left-text {
@@ -1384,7 +1384,7 @@
 .bright-text {
   width: 8.25vw;
   height: 5.7037vh;
-  color: #e7e4e4;
+  color: rgb(231, 228, 228);
   margin: 0vh 0px 0px 28.0208vw;
   font-size: 1.2963vh;
   font-weight: bold;
@@ -1400,5 +1400,4 @@
 .redirect-text {
   margin-left: 5vw;
   font-style: oblique;
-}
-/*# sourceMappingURL=container.css.map */
+}/*# sourceMappingURL=container.css.map */

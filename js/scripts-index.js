@@ -1,14 +1,19 @@
 document.documentElement.className = 'js';
+document.body.className = 'loading';
 
 (function() {
-  // Fake loading.
+
   setTimeout(init, 500);
 
   function init() {
+
     document.body.classList.remove('loading');
+    
+    document.querySelectorAll('.modal-box, .menu, .form, .three-d, .two-d').forEach(el => {
+      el.style.display = 'block';
+    });
 
-
-      var splitContent = document.querySelector('.dual__content');
+    var splitContent = document.querySelector('.dual__content');
     // Reveal on load 
     
     var rev1 = new RevealFx(document.querySelector('#rev-1'), {
